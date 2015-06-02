@@ -18,7 +18,7 @@
 		0BADC8E31B1E148000927B67 /* MMSpanParser.m in Sources */ = {isa = PBXBuildFile; fileRef = BEF3421B150CEA6D00BFA0E2 /* MMSpanParser.m */; };
 		0BADC8E41B1E148D00927B67 /* MMMarkdown.h in Headers */ = {isa = PBXBuildFile; fileRef = BE813DE214F893EB00EC9469 /* MMMarkdown.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0BADC8E51B1E148D00927B67 /* MMDocument.h in Headers */ = {isa = PBXBuildFile; fileRef = BE813E7E14F95FD300EC9469 /* MMDocument.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0BADC8E61B1E148D00927B67 /* MMDocument_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = BE813E8A14F9658600EC9469 /* MMDocument_Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0BADC8E61B1E148D00927B67 /* MMDocument_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = BE813E8A14F9658600EC9469 /* MMDocument_Private.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		0BADC8E71B1E148D00927B67 /* MMElement.h in Headers */ = {isa = PBXBuildFile; fileRef = BE813E7214F959BC00EC9469 /* MMElement.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0BADC8E81B1E148D00927B67 /* MMGenerator.h in Headers */ = {isa = PBXBuildFile; fileRef = BE813E8414F9602400EC9469 /* MMGenerator.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0BADC8E91B1E148D00927B67 /* MMHTMLParser.h in Headers */ = {isa = PBXBuildFile; fileRef = BE6CA52E158179670083887C /* MMHTMLParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -650,13 +650,13 @@
 				0BADC8C81B1E145D00927B67 /* Markdown.h in Headers */,
 				0BADC8E41B1E148D00927B67 /* MMMarkdown.h in Headers */,
 				0BADC8E51B1E148D00927B67 /* MMDocument.h in Headers */,
-				0BADC8E61B1E148D00927B67 /* MMDocument_Private.h in Headers */,
 				0BADC8E71B1E148D00927B67 /* MMElement.h in Headers */,
 				0BADC8E81B1E148D00927B67 /* MMGenerator.h in Headers */,
 				0BADC8E91B1E148D00927B67 /* MMHTMLParser.h in Headers */,
 				0BADC8EA1B1E148D00927B67 /* MMParser.h in Headers */,
 				0BADC8EB1B1E148D00927B67 /* MMScanner.h in Headers */,
 				0BADC8EC1B1E148D00927B67 /* MMSpanParser.h in Headers */,
+				0BADC8E61B1E148D00927B67 /* MMDocument_Private.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1160,6 +1160,7 @@
 				0BADC8D81B1E145E00927B67 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BE813DD014F893EB00EC9469 /* Build configuration list for PBXProject "MMMarkdown" */ = {
 			isa = XCConfigurationList;
