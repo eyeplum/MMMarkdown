@@ -7,15 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0BADC8A01B1E11C500927B67 /* MMMarkdown.h in Headers */ = {isa = PBXBuildFile; fileRef = 0BADC89F1B1E11C500927B67 /* MMMarkdown.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0BADC8B41B1E11EB00927B67 /* MMMarkdown.m in Sources */ = {isa = PBXBuildFile; fileRef = BE813DE314F893EB00EC9469 /* MMMarkdown.m */; };
-		0BADC8B51B1E11EB00927B67 /* MMDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = BE813E7F14F95FD300EC9469 /* MMDocument.m */; };
-		0BADC8B61B1E11EB00927B67 /* MMElement.m in Sources */ = {isa = PBXBuildFile; fileRef = BE813E7314F959BC00EC9469 /* MMElement.m */; };
-		0BADC8B71B1E11EB00927B67 /* MMGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = BE813E8514F9602500EC9469 /* MMGenerator.m */; };
-		0BADC8B81B1E11EB00927B67 /* MMHTMLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = BE6CA52F158179670083887C /* MMHTMLParser.m */; };
-		0BADC8B91B1E11EB00927B67 /* MMParser.m in Sources */ = {isa = PBXBuildFile; fileRef = BE813E7914F95B2A00EC9469 /* MMParser.m */; };
-		0BADC8BA1B1E11EB00927B67 /* MMScanner.m in Sources */ = {isa = PBXBuildFile; fileRef = BE813E9114FACF0C00EC9469 /* MMScanner.m */; };
-		0BADC8BB1B1E11EB00927B67 /* MMSpanParser.m in Sources */ = {isa = PBXBuildFile; fileRef = BEF3421B150CEA6D00BFA0E2 /* MMSpanParser.m */; };
+		0BADC8C81B1E145D00927B67 /* Markdown.h in Headers */ = {isa = PBXBuildFile; fileRef = 0BADC8C71B1E145D00927B67 /* Markdown.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0BADC8DC1B1E148000927B67 /* MMMarkdown.m in Sources */ = {isa = PBXBuildFile; fileRef = BE813DE314F893EB00EC9469 /* MMMarkdown.m */; };
+		0BADC8DD1B1E148000927B67 /* MMDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = BE813E7F14F95FD300EC9469 /* MMDocument.m */; };
+		0BADC8DE1B1E148000927B67 /* MMElement.m in Sources */ = {isa = PBXBuildFile; fileRef = BE813E7314F959BC00EC9469 /* MMElement.m */; };
+		0BADC8DF1B1E148000927B67 /* MMGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = BE813E8514F9602500EC9469 /* MMGenerator.m */; };
+		0BADC8E01B1E148000927B67 /* MMHTMLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = BE6CA52F158179670083887C /* MMHTMLParser.m */; };
+		0BADC8E11B1E148000927B67 /* MMParser.m in Sources */ = {isa = PBXBuildFile; fileRef = BE813E7914F95B2A00EC9469 /* MMParser.m */; };
+		0BADC8E21B1E148000927B67 /* MMScanner.m in Sources */ = {isa = PBXBuildFile; fileRef = BE813E9114FACF0C00EC9469 /* MMScanner.m */; };
+		0BADC8E31B1E148000927B67 /* MMSpanParser.m in Sources */ = {isa = PBXBuildFile; fileRef = BEF3421B150CEA6D00BFA0E2 /* MMSpanParser.m */; };
+		0BADC8E41B1E148D00927B67 /* MMMarkdown.h in Headers */ = {isa = PBXBuildFile; fileRef = BE813DE214F893EB00EC9469 /* MMMarkdown.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0BADC8E51B1E148D00927B67 /* MMDocument.h in Headers */ = {isa = PBXBuildFile; fileRef = BE813E7E14F95FD300EC9469 /* MMDocument.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0BADC8E61B1E148D00927B67 /* MMDocument_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = BE813E8A14F9658600EC9469 /* MMDocument_Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0BADC8E71B1E148D00927B67 /* MMElement.h in Headers */ = {isa = PBXBuildFile; fileRef = BE813E7214F959BC00EC9469 /* MMElement.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0BADC8E81B1E148D00927B67 /* MMGenerator.h in Headers */ = {isa = PBXBuildFile; fileRef = BE813E8414F9602400EC9469 /* MMGenerator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0BADC8E91B1E148D00927B67 /* MMHTMLParser.h in Headers */ = {isa = PBXBuildFile; fileRef = BE6CA52E158179670083887C /* MMHTMLParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0BADC8EA1B1E148D00927B67 /* MMParser.h in Headers */ = {isa = PBXBuildFile; fileRef = BE813E7814F95B2A00EC9469 /* MMParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0BADC8EB1B1E148D00927B67 /* MMScanner.h in Headers */ = {isa = PBXBuildFile; fileRef = BE813E9014FACF0C00EC9469 /* MMScanner.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0BADC8EC1B1E148D00927B67 /* MMSpanParser.h in Headers */ = {isa = PBXBuildFile; fileRef = BEF3421A150CEA6D00BFA0E2 /* MMSpanParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BE0AC4AC182D44BB0055E514 /* MMMarkdown.h in Copy Public Headers */ = {isa = PBXBuildFile; fileRef = BE813DE214F893EB00EC9469 /* MMMarkdown.h */; };
 		BE0AC4AE182D45DC0055E514 /* MMMarkdown.h in Copy Public Headers */ = {isa = PBXBuildFile; fileRef = BE813DE214F893EB00EC9469 /* MMMarkdown.h */; };
 		BE1DB5D51514184000B26092 /* MMSpanTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BE1DB5D41514184000B26092 /* MMSpanTests.m */; };
@@ -262,9 +271,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		0BADC89B1B1E11C500927B67 /* MMMarkdown.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MMMarkdown.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		0BADC89E1B1E11C500927B67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0BADC89F1B1E11C500927B67 /* MMMarkdown.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MMMarkdown.h; sourceTree = "<group>"; };
+		0BADC8C31B1E145D00927B67 /* Markdown.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Markdown.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0BADC8C61B1E145D00927B67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0BADC8C71B1E145D00927B67 /* Markdown.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Markdown.h; sourceTree = "<group>"; };
 		BE1DB5D41514184000B26092 /* MMSpanTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMSpanTests.m; sourceTree = "<group>"; };
 		BE1DB5D915143F4200B26092 /* MMBlockTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMBlockTests.m; sourceTree = "<group>"; };
 		BE1DB5DC1515032F00B26092 /* MMLinkTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMLinkTests.m; sourceTree = "<group>"; };
@@ -383,7 +392,7 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		0BADC8971B1E11C500927B67 /* Frameworks */ = {
+		0BADC8BF1B1E145D00927B67 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -426,19 +435,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0BADC89C1B1E11C500927B67 /* MMMarkdown */ = {
+		0BADC8C41B1E145D00927B67 /* Markdown */ = {
 			isa = PBXGroup;
 			children = (
-				0BADC89F1B1E11C500927B67 /* MMMarkdown.h */,
-				0BADC89D1B1E11C500927B67 /* Supporting Files */,
+				0BADC8C71B1E145D00927B67 /* Markdown.h */,
+				0BADC8C51B1E145D00927B67 /* Supporting Files */,
 			);
-			path = MMMarkdown;
+			path = Markdown;
 			sourceTree = "<group>";
 		};
-		0BADC89D1B1E11C500927B67 /* Supporting Files */ = {
+		0BADC8C51B1E145D00927B67 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				0BADC89E1B1E11C500927B67 /* Info.plist */,
+				0BADC8C61B1E145D00927B67 /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -449,7 +458,7 @@
 				BE813DDF14F893EB00EC9469 /* Source */,
 				BE813E1614F92B6100EC9469 /* CLI */,
 				BE813DF114F893EB00EC9469 /* Tests */,
-				0BADC89C1B1E11C500927B67 /* MMMarkdown */,
+				0BADC8C41B1E145D00927B67 /* Markdown */,
 				BE813DD814F893EB00EC9469 /* Frameworks */,
 				BE813DD714F893EB00EC9469 /* Products */,
 			);
@@ -463,7 +472,7 @@
 				BE813DEA14F893EB00EC9469 /* MMMarkdownTests.xctest */,
 				BE813E0E14F8961D00EC9469 /* libMMMarkdown-iOS.a */,
 				BE813E1314F92B6100EC9469 /* mmmarkdown */,
-				0BADC89B1B1E11C500927B67 /* MMMarkdown.framework */,
+				0BADC8C31B1E145D00927B67 /* Markdown.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -634,33 +643,42 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		0BADC8981B1E11C500927B67 /* Headers */ = {
+		0BADC8C01B1E145D00927B67 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0BADC8A01B1E11C500927B67 /* MMMarkdown.h in Headers */,
+				0BADC8C81B1E145D00927B67 /* Markdown.h in Headers */,
+				0BADC8E41B1E148D00927B67 /* MMMarkdown.h in Headers */,
+				0BADC8E51B1E148D00927B67 /* MMDocument.h in Headers */,
+				0BADC8E61B1E148D00927B67 /* MMDocument_Private.h in Headers */,
+				0BADC8E71B1E148D00927B67 /* MMElement.h in Headers */,
+				0BADC8E81B1E148D00927B67 /* MMGenerator.h in Headers */,
+				0BADC8E91B1E148D00927B67 /* MMHTMLParser.h in Headers */,
+				0BADC8EA1B1E148D00927B67 /* MMParser.h in Headers */,
+				0BADC8EB1B1E148D00927B67 /* MMScanner.h in Headers */,
+				0BADC8EC1B1E148D00927B67 /* MMSpanParser.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		0BADC89A1B1E11C500927B67 /* MMMarkdown */ = {
+		0BADC8C21B1E145D00927B67 /* Markdown */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0BADC8B21B1E11C500927B67 /* Build configuration list for PBXNativeTarget "MMMarkdown" */;
+			buildConfigurationList = 0BADC8D61B1E145E00927B67 /* Build configuration list for PBXNativeTarget "Markdown" */;
 			buildPhases = (
-				0BADC8961B1E11C500927B67 /* Sources */,
-				0BADC8971B1E11C500927B67 /* Frameworks */,
-				0BADC8981B1E11C500927B67 /* Headers */,
-				0BADC8991B1E11C500927B67 /* Resources */,
+				0BADC8BE1B1E145D00927B67 /* Sources */,
+				0BADC8BF1B1E145D00927B67 /* Frameworks */,
+				0BADC8C01B1E145D00927B67 /* Headers */,
+				0BADC8C11B1E145D00927B67 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = MMMarkdown;
-			productName = MMMarkdown;
-			productReference = 0BADC89B1B1E11C500927B67 /* MMMarkdown.framework */;
+			name = Markdown;
+			productName = Markdown;
+			productReference = 0BADC8C31B1E145D00927B67 /* Markdown.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		BE813DD514F893EB00EC9469 /* MMMarkdown-Mac */ = {
@@ -743,7 +761,7 @@
 			attributes = {
 				LastUpgradeCheck = 0630;
 				TargetAttributes = {
-					0BADC89A1B1E11C500927B67 = {
+					0BADC8C21B1E145D00927B67 = {
 						CreatedOnToolsVersion = 6.3.2;
 					};
 				};
@@ -764,13 +782,13 @@
 				BE813E0614F8961D00EC9469 /* MMMarkdown-iOS */,
 				BE813DE914F893EB00EC9469 /* MMMarkdownTests */,
 				BE813E1214F92B6100EC9469 /* mmmarkdown */,
-				0BADC89A1B1E11C500927B67 /* MMMarkdown */,
+				0BADC8C21B1E145D00927B67 /* Markdown */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		0BADC8991B1E11C500927B67 /* Resources */ = {
+		0BADC8C11B1E145D00927B67 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -804,18 +822,18 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		0BADC8961B1E11C500927B67 /* Sources */ = {
+		0BADC8BE1B1E145D00927B67 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0BADC8B41B1E11EB00927B67 /* MMMarkdown.m in Sources */,
-				0BADC8B51B1E11EB00927B67 /* MMDocument.m in Sources */,
-				0BADC8B61B1E11EB00927B67 /* MMElement.m in Sources */,
-				0BADC8B71B1E11EB00927B67 /* MMGenerator.m in Sources */,
-				0BADC8B81B1E11EB00927B67 /* MMHTMLParser.m in Sources */,
-				0BADC8B91B1E11EB00927B67 /* MMParser.m in Sources */,
-				0BADC8BA1B1E11EB00927B67 /* MMScanner.m in Sources */,
-				0BADC8BB1B1E11EB00927B67 /* MMSpanParser.m in Sources */,
+				0BADC8DC1B1E148000927B67 /* MMMarkdown.m in Sources */,
+				0BADC8DD1B1E148000927B67 /* MMDocument.m in Sources */,
+				0BADC8DE1B1E148000927B67 /* MMElement.m in Sources */,
+				0BADC8DF1B1E148000927B67 /* MMGenerator.m in Sources */,
+				0BADC8E01B1E148000927B67 /* MMHTMLParser.m in Sources */,
+				0BADC8E11B1E148000927B67 /* MMParser.m in Sources */,
+				0BADC8E21B1E148000927B67 /* MMScanner.m in Sources */,
+				0BADC8E31B1E148000927B67 /* MMSpanParser.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -898,7 +916,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		0BADC8AE1B1E11C500927B67 /* Debug */ = {
+		0BADC8D71B1E145E00927B67 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
@@ -920,7 +938,7 @@
 				);
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				INFOPLIST_FILE = MMMarkdown/Info.plist;
+				INFOPLIST_FILE = Markdown/Info.plist;
 				INSTALL_PATH = "@executable_path/../Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
@@ -933,7 +951,7 @@
 			};
 			name = Debug;
 		};
-		0BADC8AF1B1E11C500927B67 /* Release */ = {
+		0BADC8D81B1E145E00927B67 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
@@ -952,7 +970,7 @@
 				FRAMEWORK_VERSION = A;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				INFOPLIST_FILE = MMMarkdown/Info.plist;
+				INFOPLIST_FILE = Markdown/Info.plist;
 				INSTALL_PATH = "@executable_path/../Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
@@ -1135,11 +1153,11 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0BADC8B21B1E11C500927B67 /* Build configuration list for PBXNativeTarget "MMMarkdown" */ = {
+		0BADC8D61B1E145E00927B67 /* Build configuration list for PBXNativeTarget "Markdown" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0BADC8AE1B1E11C500927B67 /* Debug */,
-				0BADC8AF1B1E11C500927B67 /* Release */,
+				0BADC8D71B1E145E00927B67 /* Debug */,
+				0BADC8D81B1E145E00927B67 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
