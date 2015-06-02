@@ -26,6 +26,9 @@ MMMarkdown also supports a number of Markdown extensions:
     // Returns @"<p><del>Mistaken</del></p>"
 
 ## Setup
+
+[![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
+
 Adding MMMarkdown to your Mac or iOS project is easy.
 
 0. Add MMMarkdown as a git submodule. (`git submodule add https://github.com/mdiep/MMMarkdown <path>`)
