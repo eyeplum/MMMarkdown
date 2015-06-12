@@ -14,23 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "0BADC89A1B1E11C500927B67"
-               BuildableName = "MMMarkdown.framework"
-               BlueprintName = "MMMarkdown"
-               ReferencedContainer = "container:MMMarkdown.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "NO"
-            buildForArchiving = "NO"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "BE813DE914F893EB00EC9469"
-               BuildableName = "MMMarkdownTests.xctest"
-               BlueprintName = "MMMarkdownTests"
+               BlueprintIdentifier = "0B8502F41B2A5860009455CB"
+               BuildableName = "UIMarkdown.framework"
+               BlueprintName = "UIMarkdown"
                ReferencedContainer = "container:MMMarkdown.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -46,9 +32,9 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "BE813DE914F893EB00EC9469"
-               BuildableName = "MMMarkdownTests.xctest"
-               BlueprintName = "MMMarkdownTests"
+               BlueprintIdentifier = "0B8502FD1B2A5860009455CB"
+               BuildableName = "UIMarkdownTests.xctest"
+               BlueprintName = "UIMarkdownTests"
                ReferencedContainer = "container:MMMarkdown.xcodeproj">
             </BuildableReference>
          </TestableReference>
@@ -56,9 +42,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "0BADC89A1B1E11C500927B67"
-            BuildableName = "MMMarkdown.framework"
-            BlueprintName = "MMMarkdown"
+            BlueprintIdentifier = "0B8502F41B2A5860009455CB"
+            BuildableName = "UIMarkdown.framework"
+            BlueprintName = "UIMarkdown"
             ReferencedContainer = "container:MMMarkdown.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -78,9 +64,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "0BADC89A1B1E11C500927B67"
-            BuildableName = "MMMarkdown.framework"
-            BlueprintName = "MMMarkdown"
+            BlueprintIdentifier = "0B8502F41B2A5860009455CB"
+            BuildableName = "UIMarkdown.framework"
+            BlueprintName = "UIMarkdown"
             ReferencedContainer = "container:MMMarkdown.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -96,9 +82,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "0BADC89A1B1E11C500927B67"
-            BuildableName = "MMMarkdown.framework"
-            BlueprintName = "MMMarkdown"
+            BlueprintIdentifier = "0B8502F41B2A5860009455CB"
+            BuildableName = "UIMarkdown.framework"
+            BlueprintName = "UIMarkdown"
             ReferencedContainer = "container:MMMarkdown.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
